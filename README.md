@@ -1,12 +1,16 @@
-# React + Vite
+# 📝 Minimal React Blog (Vite + JS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal blog application built with **React** and **Vite** using plain JavaScript. Fast, lightweight, and easy to customize.
 
-Currently, two official plugins are available:
+## ⚙️ Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – Component-based UI
+- **Vite** – Fast dev server & build tool
+- **JavaScript** – No TypeScript, just clean JS
+- **ESLint** – Optional linting for code quality
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
