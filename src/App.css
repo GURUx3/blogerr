@@ -1,0 +1,179 @@
+/* ========== Base Reset & Typography ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ========== Home Page ========== */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+  gap: 20px;
+}
+
+.home-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+/* ========== Blogs List Page ========== */
+#blogs {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.blog-item {
+  border-bottom: 1px solid black;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.blog-author {
+  font-size: 14px;
+  color: black;
+}
+
+.loading-text,
+.no-blogs-text {
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* ========== Create Blog Page ========== */
+.create-blog-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 16px;
+}
+
+.create-blog-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px;
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background: white;
+  color: black;
+}
+
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  padding: 10px;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ========== Blog Detail Page ========== */
+.blog-detail-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 16px;
+}
+
+.blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.blog-meta {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.blog-summary {
+  font-size: 16px;
+}
+
+/* ========== Mobile ========== */
+@media (max-width: 600px) {
+  .home-text {
+    font-size: 24px;
+  }
+
+  .home-link {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .blog-title {
+    font-size: 16px;
+  }
+
+  .blog-summary {
+    font-size: 15px;
+  }
+}
